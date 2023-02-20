@@ -1,15 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - prints alpha in lower case
+ * main - main block
+ * Description: Get a random it with 5
  * Return: Always 0
  */
 int main(void)
 {
-	char lc;
+	char c = 'a';
 
-	for (lc = 'a'; lc <= 'z'; lc++)
+	while (c <= 'z')
 	{
-		putchar(lc);
+		putchar(c);
+		c++;
 	}
 	putchar('/n');
 	return (0);
