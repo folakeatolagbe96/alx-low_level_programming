@@ -5,15 +5,21 @@
  */
 int main(void)
 {
-	char ch;
+	char c = 'a';
 
-	for (ch = 'a'; ch++)
-		putchar(ch);
+	while(c <= 'z');
+	{
+		putchar(c);
+		c++;
+	}
+	c = 'A';
 
-	for (ch = 'A'; ch <= 'Z'; ch++)
-		putchar(ch);
+	while (c <= 'Z')
+	{
+		putchar(c);
+		c++;
+	}
 
-	putchar('/n');
-
+	putcharr('\n');
 	return (0);
 }
