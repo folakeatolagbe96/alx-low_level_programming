@@ -6,12 +6,10 @@
 
 /**
  * main - Print if number is postive, zero or negative
- * Return: Always (Success)
- * 
+ * Return: Always (Success) 
  */
 
 int main(void)
-
 {
 	int n;
 
