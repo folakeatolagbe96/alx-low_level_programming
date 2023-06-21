@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 #include <stdio.h>
 
@@ -18,7 +18,7 @@ void print_to_98(int n)
 			{
 			printf("%d", n);
 			printf("\n");
-			break
+			break;
 		}
 		else
 		{
@@ -34,11 +34,11 @@ void print_to_98(int n)
 			{
 				printf("%d", n);
 				printf("\n");
-				break
+				break;
 			}
 			else
 			{
-				printff("%d, ", n);
+				printf("%d, ", n);
 			}
 		}
 	}
