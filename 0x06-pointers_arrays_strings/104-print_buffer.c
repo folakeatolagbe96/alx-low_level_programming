@@ -34,6 +34,7 @@ void print_buffer(char *b, int size)
 			{
 				printf("");
 			}
+		}
 			for (i = 0; i < j; i++)
 			{
 				int c = *(b + o + i);
@@ -46,6 +47,6 @@ void print_buffer(char *b, int size)
 			}
 			printf("\n");
 			o += 10;
-		}
 	}
 }
+		
